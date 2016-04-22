@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+body {
+	background-image: url('http://www.workinprogress.lv/wp-content/uploads/2015/04/TIY-Logo-500px-e1429573412624.png');
+	background-size: auto;
+	background-size: 100px;
+	background-image: rgba(44, 62, 80,1.0);
+}
+
 html {
     font-family: sans-serif;
 }
@@ -18,12 +25,8 @@ html {
 
 canvas {
 	position: absolute;
-	padding: 0;
-	margin: auto;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	background-color: green;
-
+	/* margin: 0 25%; */
+	/* transform: translateX(5%); */
+	transform: translateY(25%);
+	background-image:url('http://www.workinprogress.lv/wp-content/uploads/2015/04/TIY-Logo-500px-e1429573412624.png');
 }

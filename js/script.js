@@ -1,9 +1,10 @@
 console.log($)
 
+
+// setting the animation with fps in a set time out cb
 var animate = window.requestAnimationFrame || window.webkitRequestAnimationFrame ||
   window.mozRequestAnimationFrame ||
 function( callback ) {	window.setTimeout(callback, 1000/60)}
-
 
 var canvas = document.createElement('canvas')
 var width = 400
@@ -47,7 +48,6 @@ function update(){
 }
 
 function render(){
-	// context.fillStyle = 'rgba(44, 62, 80, 0.2)'
 	context.fillRect(0,0,width, height)
 }
 
